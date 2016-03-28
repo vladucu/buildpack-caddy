@@ -18,9 +18,9 @@ echo "-----> Installing latest caddy bin"
 cd $DIR; cp ../caddy $1/caddy
 cd $CURDIR
 
-echo "-----> Setting up Procfile"
-cd $DIR; cp ../Procfile $1/Procfile
-cd $CURDIR
+#echo "-----> Setting up Procfile"
+#cd $DIR; cp ../Procfile $1/Procfile
+#cd $CURDIR
 
 echo "-----> Deploy Caddy Runner"
 cd $DIR; cp ../setup_caddy.sh $1/setup_caddy.sh
